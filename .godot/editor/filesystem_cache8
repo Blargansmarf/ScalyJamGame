@@ -1,3 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1699378151
+::res://::1699379164
 icon.svg::CompressedTexture2D::893199321713318152::1699378143::1699378152::1::::<><>::
+::res://art/::1699380328
+BlackSquare.png::CompressedTexture2D::8033426980536765143::1699379353::1699379353::1::::<><>::
+BlueSquare.png::CompressedTexture2D::5882139569471641933::1699379353::1699379353::1::::<><>::
+GraySquare.png::CompressedTexture2D::1777375346627403035::1699379353::1699379353::1::::<><>::
+GreenSquare.png::CompressedTexture2D::317935568146100457::1699379353::1699379353::1::::<><>::
+RedSquare.png::CompressedTexture2D::551991413642983894::1699379353::1699379353::1::::<><>::
+TestCard.png::CompressedTexture2D::2391295399878552184::1699380328::1699380328::1::::<><>::
+WhiteSquare.png::CompressedTexture2D::6230743859481010256::1699379353::1699379353::1::::<><>::
+::res://scenes/::1699379164
+::res://scripts/::1699379160
