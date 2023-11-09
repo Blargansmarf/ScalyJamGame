@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjbmpfr8o4ujo"]
+
+[ext_resource type="Texture2D" uid="uid://cp2l8kddx20s4" path="res://art/BlueSquare.png" id="1_w1ynp"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jjmeh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_w1ynp")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Player" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_jjmeh")

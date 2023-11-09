@@ -1,0 +1,5 @@
+res://player.tscn
+res://scenes/player.tscn
+res://scripts/Controller.gd
+res://scripts/Deck.gd
+res://scripts/PlayerStats.gd
