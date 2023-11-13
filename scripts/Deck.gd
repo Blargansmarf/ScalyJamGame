@@ -1,16 +1,25 @@
 extends Node
 
-#dictionaries
+var hand
 var drawPile
 var discardPile
-var hand
-###
 
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	### set up init deck
+	drawPile = [
+		"coindmg1",
+		"stab",
+		"stab",
+		"stab",
+		"stab",
+		"block",
+		"block",
+		"block"
+	]
+	drawPile.shuffle()
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -19,10 +28,26 @@ func _process(delta):
 
 
 func draw(num):
-	pass
+	for n in num:
+		if drawPile.is_empty():
+			drawPile.append_array(discardPile)
+			drawPile.shuffle()
+			discardPile.clear()
+		hand.append(drawPile.pop_back())
 
-func discard(card):
-	pass
+func discard(index):
+	discardPile.append(hand[index])
+	hand.remove_at(index)
 
-func play(card):
+func play(index):
+	var card = hand[index]
+	
+	if card == "stab":
+		pass #stab them
+	if card == "block":
+		pass #block damage
+	if card == "coindmg1":
+		pass #tip scale dmg +1
+	
+	discard(index)
 	pass

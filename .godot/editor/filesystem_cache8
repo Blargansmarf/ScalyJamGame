@@ -1,7 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1699480292
+::res://::1699893053
 icon.svg::CompressedTexture2D::893199321713318152::1699378143::1699378152::1::::<><>::
-player.tscn::PackedScene::5407361019101991096::1699480292::0::1::::<><>::uid://cp2l8kddx20s4::::res://art/BlueSquare.png<>res://scripts/Player.gd
 ::res://art/::1699380328
 BlackSquare.png::CompressedTexture2D::8033426980536765143::1699379353::1699379353::1::::<><>::
 BlueSquare.png::CompressedTexture2D::5882139569471641933::1699379353::1699379353::1::::<><>::
@@ -10,6 +9,9 @@ GreenSquare.png::CompressedTexture2D::317935568146100457::1699379353::1699379353
 RedSquare.png::CompressedTexture2D::551991413642983894::1699379353::1699379353::1::::<><>::
 TestCard.png::CompressedTexture2D::2391295399878552184::1699380328::1699380328::1::::<><>::
 WhiteSquare.png::CompressedTexture2D::6230743859481010256::1699379353::1699379353::1::::<><>::
-::res://scenes/::1699379164
-::res://scripts/::1699480292
-Player.gd::GDScript::-1::1699382005::0::1::::<>AnimatedSprite2D<>::
+::res://scenes/::1699503083
+player.tscn::PackedScene::5407361019101991096::1699503083::0::1::::<><>::uid://cp2l8kddx20s4::::res://art/BlueSquare.png
+::res://scripts/::1699503083
+Controller.gd::GDScript::-1::1699503083::0::1::::<>Node<>::
+Deck.gd::GDScript::-1::1699503083::0::1::::<>Node<>::
+PlayerStats.gd::GDScript::-1::1699503083::0::1::::<>Node<>::
