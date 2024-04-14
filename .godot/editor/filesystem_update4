@@ -1,3 +1,10 @@
 res://scenes/player.tscn
 res://scripts/Deck.gd
 res://scripts/notes.gd
+res://scripts/PlayerStats.gd
+res://scripts/Controller.gd
+res://scenes/battle.tscn
+res://scenes/StabCard.tscn
+res://scenes/BlockCard.tscn
+res://scenes/CoinDmg1Card.tscn
+res://scenes/ThumbCard.tscn

@@ -5,8 +5,6 @@ var drawPile
 var discardPile
 
 
-
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	### set up init deck
 	drawPile = [
@@ -17,15 +15,11 @@ func _ready():
 		"stab",
 		"block",
 		"block",
-		"block"
+		"block",
+		"block",
+		"thumb"
 	]
 	drawPile.shuffle()
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
 
 func draw(num):
 	for n in num:
@@ -48,6 +42,8 @@ func play(index):
 		pass #block damage
 	if card == "coindmg1":
 		pass #tip scale dmg +1
+	if card == "thumb":
+		pass #extend scale time
 	
 	discard(index)
 	pass

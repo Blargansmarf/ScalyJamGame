@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bk3u06ky6dh5e"]
+
+[node name="RootLayer" type="CanvasLayer"]
+
+[node name="GUI" type="CanvasLayer" parent="."]
+
+[node name="CardLayer" type="CanvasLayer" parent="."]
+
+[node name="PlayerLayer" type="CanvasLayer" parent="."]
+
+[node name="EnemyLayer" type="CanvasLayer" parent="."]

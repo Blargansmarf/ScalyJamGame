@@ -1,12 +1,15 @@
 extends Node
 
 var health
+var maxHandSize
+var turnDraw
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	health = 30
+	maxHandSize = 7
+	turnDraw = 5
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
+# ignore for full turn based gameplay
 func _process(delta):
 	pass
